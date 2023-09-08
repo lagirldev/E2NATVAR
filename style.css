@@ -1,0 +1,41 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el navbar */
+.navbar {
+  background-color: #333;
+  color: #cf185b;
+  display: flex;
+  justify-content: space-between;
+  display: inline;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 50px; /* Ajusta el ancho de tu logo según lo necesites */
+  height: min-content; /* Mantiene la proporción de la imagen */
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+
+.nav-list a {
+  text-decoration-color: #333;
+  color: #c964a6;
+  font-weight: bold;
+}
